@@ -3,7 +3,7 @@ print("this is just demo the main picture is still remain")
 
 
 def decorator(func):
-    sum = 0
+    sum_default = 0
 
     def inner(x, y):
         return func(x, y)
