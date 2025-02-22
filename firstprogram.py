@@ -17,3 +17,16 @@ def addition(x, y):
 
 
 addition(4, 7)
+
+my_string = "Exim is a good business idea"
+repeating_char = ""
+empty_list = {}
+for item in my_string:
+    if item in empty_list:
+        empty_list[item] += 1
+    else:
+        empty_list[item] = 1
+
+    if item not in repeating_char and empty_list[item] > 1:
+        repeating_char += item
+print(repeating_char)
