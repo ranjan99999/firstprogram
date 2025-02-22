@@ -18,3 +18,5 @@ def addition(x, y):
 
 addition(4, 7)
 print("the above result is based on the decorator")
+# Above program is a decorator and it is for adding two number using decorator
+
