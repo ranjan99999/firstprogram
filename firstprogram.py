@@ -18,7 +18,7 @@ def addition(x, y):
 
 addition(4, 7)
 
-my_string = "Exim is a good business idea"
+my_string = "Exim is a profitable and stable  business "
 repeating_char = ""
 empty_list = {}
 for item in my_string:
